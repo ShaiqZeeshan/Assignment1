@@ -1,0 +1,161 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap') 
+}
+head{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+nav {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 30;
+    opacity :3;   
+}
+
+a  { 
+    font-weight: 900;
+    text-decoration-line: none;
+}
+a:link{
+color: white;
+}
+a:visited{
+color: white;
+}
+a:hover{
+    text-decoration: underline;   
+    text-decoration-color: orangered;
+}
+img{
+    margin-top: 50px;
+    width: 600px;
+    height: 600px;
+    transition: transform 0.3s ease;  
+}
+.intro{
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: auto;
+    margin-right: none;
+}
+.worth{
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+}
+.name{
+    font-weight: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.start{
+    text-align: left;
+
+    font-weight: bolder;
+    font-size: 80px;
+}
+.rowaboutme{
+margin-left: 100px;
+margin-right: 100px;
+}
+
+button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.interest{
+    margin-top: 100px;
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+}
+
+img:hover{
+    transform: translateY(-10px);
+}
+
+.aboutme{
+    margin-top: 200px;
+
+}
+.line{
+    margin-top: 100px ;
+}
+
+.in{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(245, 142, 8);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color:rgba(169, 169, 169, 0.073);;
+    padding: 20px;
+  }
+
+  .span{
+    margin-top: 100px;
+  }
+
+  input[type=email], select, textarea {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-right: 12px;
+    width: 100%; 
+    height: 50px; 
+    border-radius:4px;
+  }
+
+  input[type=email]::placeholder{
+    margin-right: 10px;
+  }
+
+  textarea{
+    height: 200px;
+  }
+
+.masterpeice{
+    text-align: center; 
+    color:azure;
+    margin-bottom: 30px;
+}
+
+.pdf {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+}
+.pdf,
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
